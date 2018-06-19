@@ -18,6 +18,7 @@ check_targets = []
 
 default_args = {
   is_component_build = false
+  use_custom_libcxx = false
   symbol_level = 1
   treat_warnings_as_errors = false
   v8_deprecation_warnings = false
